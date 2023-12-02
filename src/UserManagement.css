@@ -1,0 +1,115 @@
+
+.user-management-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    
+  }
+  
+  .search-icon {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .user-table th, .user-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .user-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .selected-row {
+    background-color: #e0e0e0;
+  }
+  
+  .filtered-row {
+    background-color: #ffeb3b;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 20px;
+  }
+  
+  .pagination button {
+    padding: 8px;
+    margin: 0 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ddd;
+    color: #666;
+    cursor: not-allowed;
+  }
+
+.pagination .current-page,
+.pagination .total-pages {
+  margin: 0 5px;
+  font-weight: bold;
+}
+  
+  .delete-button {
+    text-align: center;
+  }
+  
+  .delete-selected {
+    padding: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+ 
+  @media screen and (max-width: 600px) {
+    .user-management-container {
+      padding: 10px;
+    }
+  
+    .search-bar {
+      flex-direction: column;
+    }
+  
+    .search-bar input {
+      margin-bottom: 10px;
+    }
+  
+    .pagination {
+      flex-direction: column;
+    }
+  }
+  
