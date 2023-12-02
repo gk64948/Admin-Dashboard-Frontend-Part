@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Admin-Dashboard-Frontend-Part/static/css/main.63d4fbe0.css",
+    "main.js": "/Admin-Dashboard-Frontend-Part/static/js/main.afb8a536.js",
+    "static/js/787.af67e72d.chunk.js": "/Admin-Dashboard-Frontend-Part/static/js/787.af67e72d.chunk.js",
+    "index.html": "/Admin-Dashboard-Frontend-Part/index.html",
+    "main.63d4fbe0.css.map": "/Admin-Dashboard-Frontend-Part/static/css/main.63d4fbe0.css.map",
+    "main.afb8a536.js.map": "/Admin-Dashboard-Frontend-Part/static/js/main.afb8a536.js.map",
+    "787.af67e72d.chunk.js.map": "/Admin-Dashboard-Frontend-Part/static/js/787.af67e72d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63d4fbe0.css",
+    "static/js/main.afb8a536.js"
+  ]
+}
